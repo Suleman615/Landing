@@ -31,12 +31,12 @@ const Navbar = () => {
 
                 {/* mobile  */}
                 {mobile &&
-                    <div className="absolute md:hidden top-16 left-0 ps-5 gap-4 w-full flex flex-col items-start bg-slate-600 bg-opacity-40 py-4">
+                    <div className="absolute md:hidden top-16 left-0 ps-5 gap-4 w-full flex flex-col items-start bg-[#F3F4F6] bg-opacity-90 py-4">
                         <div className="flex flex-col gap-4  font-semibold items-start">
-                            <a className="cursor-pointer" >מאפיינים</a>
-                            <a className="cursor-pointer" >תמחור</a>
-                            <a className="cursor-pointer" >תמיכה</a>
-                            <a className="cursor-pointer" >למה לנו?</a>
+                            <a onClick={() => setMobile(!mobile)} className="cursor-pointer" >מאפיינים</a>
+                            <a onClick={() => setMobile(!mobile)} className="cursor-pointer" >תמחור</a>
+                            <a onClick={() => setMobile(!mobile)} className="cursor-pointer" >תמיכה</a>
+                            <a onClick={() => setMobile(!mobile)} className="cursor-pointer" >למה לנו?</a>
 
                         </div>
                         <div className="flex flex-col gap-4 font-semibold">

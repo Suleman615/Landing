@@ -6,7 +6,7 @@ import { Linkedin } from 'lucide-react';
 const Footer = () => {
     return (
         <>
-            <div className='w-full bg-[rgb(249,250,251)]'>
+            <div dir='rtl' className='w-full bg-[rgb(249,250,251)]'>
 
                 <div className="flex flex-wrap justify-around items-center gap-3 md:gap-0 py-10 mx-auto md:mx-28   bg-[#F9FAFB]">
 
@@ -31,7 +31,7 @@ const Footer = () => {
                             </a>
                         </section>
                     </div>
-                    <div className=' w-full md:w-[50%] flex flex-wrap justify-center md:justify-between  gap-10 px-4 pr-2 md:pr-56  '>
+                    <div className=' w-full md:w-[50%] flex flex-wrap justify-center md:justify-between  gap-10 px-4 pl-2 md:pl-56  '>
                         <ul className="text-[#757C89] flex flex-col gap-4 ">
                             <li className="font-semibold text-[#2A313F]">Company</li>
                             <li>Product</li>
