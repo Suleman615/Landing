@@ -11,10 +11,11 @@ const Footer = () => {
                 <div className="flex flex-wrap justify-around items-center gap-3 md:gap-0 py-10 mx-auto md:mx-28   bg-[#F9FAFB]">
 
                     <div className='w-full md:w-[45%] text-center sm:text-start  sm:px-10 md:px-2   '>
-                        <h5 className="text-[48px]   text-[#2A313F]">שינוי משפטי</h5>
+                        <h5 className="text-[48px]   text-[#2A313F]">@חמורבי.</h5>
                     </div>
                     <div className='p-4 w-full md:w-[50%]  '>
-                        <p className='text-center md:text-start max-w-[80%] text-[#757C89]'>גלה ניהול, ניתוח וסיוע של מסמכים   משפטיים  גלה ניהול, ניתוח וסיוע של מסמכים   משפטיים חלקים.</p>
+                        <h3 className="text-md font-semibold   text-[#2A313F]">מערכת AI לשכנוע בעולם המשפט</h3>
+                        <p className='text-center md:text-start max-w-[80%] text-[#757C89]'>גלה חולשות וחוזקות בכתבי טענות והסכמים, נתח וסכם רעיונות כהרף עין וכתוב מחדש בעברית מעולה טיעונים משפטיים מנצחים לבתי המשפט</p>
 
                     </div>
                 </div>
@@ -22,8 +23,8 @@ const Footer = () => {
                 <div className="flex flex-wrap justify-around  gap-3 md:gap-0 py-10 mx-auto md:mx-28 pb-28   bg-[#F9FAFB]">
 
                     <div className='w-full md:w-[45%] text-center sm:text-start  sm:px-10 md:px-2   '>
-                        <p className='text-center md:text-start text-[#757C89] my-3 px-4 md:px-0'>גלה ניהול, ניתוח וסיוע של מסמכים   &copy; משפטיים חלקים.</p>
-                        <section className='flex gap-4 items-center justify-center md:justify-start'>
+                        <p className='text-center md:text-start text-[#757C89] my-3 px-4 md:px-0'>@ כל הזכויות שמורות 2024  &copy;</p>
+                        <section dir='rtl' className='flex gap-4 items-center justify-center md:justify-start'>
                             <p>Follow Us on: </p>
                             <a className=' px-2 hover:text-blue-700 border-r' href=""><svg className='' xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 14 14" fill=''><g clip-path="url(#a-:R57qula:)"><path d="M11.0256.672119h2.1466L8.48225 6.03295 14 13.3264H9.67983L6.2965 8.90237 2.42433 13.3264H.2765l5.01667-5.7342L0 .672703h4.42983L7.48825 4.71637 11.0256.672119ZM10.2725 12.0419h1.1894L3.7835 1.88954H2.50717L10.2725 12.0419Z" fill="currentColor"></path></g><defs><clipPath id="a-:R57qula:"><path fill="currentColor" d="M0 0h14v14H0z"></path></clipPath></defs></svg>
                             </a>
