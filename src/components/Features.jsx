@@ -7,7 +7,7 @@ const Features = () => {
     return (
         <>
         <div className='bg-[#F7F8F9] w-full'>
-            <div className="flex flex-col gap-3  bg-[#F7F8F9] py-20 border-b px-2 md:px-28  mx-auto">
+            <div className="flex flex-col gap-3  bg-[#F7F8F9] py-20 border-b px-2 md:px-28 max-w-[1280px] mx-auto">
                 <h2 className="text-center text-[60px]  text-[#484F5E]">מאפיינים</h2>
                 <p className="text-center text-[16px] text-[#828894] ">אלו הן רק כמה תכונות שתקבלו באמצעות הכל עורך דין AI</p>
                 <div className="flex flex-wrap gap-4  lg:gap-10 justify-center items-center my-10 ">
