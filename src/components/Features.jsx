@@ -7,16 +7,16 @@ const Features = () => {
     return (
         <>
         <div className='bg-[#F7F8F9] w-full'>
-            <div className="flex flex-col gap-3 md:gap-20 bg-[#F7F8F9] py-20 border-b px-2 md:px-28  mx-auto">
+            <div className="flex flex-col gap-3  bg-[#F7F8F9] py-20 border-b px-2 md:px-28  mx-auto">
                 <h2 className="text-center text-[60px]  text-[#484F5E]">מאפיינים</h2>
                 <p className="text-center text-[16px] text-[#828894] ">אלו הן רק כמה תכונות שתקבלו באמצעות הכל עורך דין AI</p>
-                <div className="flex flex-wrap gap-10 justify-center items-center my-10 px-8">
+                <div className="flex flex-wrap gap-4  lg:gap-10 justify-center items-center my-10 ">
 
 
 
 
                     {/* 1 */}
-                    <div dir='rtl' className="w-72 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
+                    <div dir='rtl' className="w-64 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
                         <div dir='rtl' className='flex w-full px-2 justify-between items-center text-[#495261]'>
                             <p className='font-semibold'>הסבירו החלטות, פסקי דין ומאמרים</p>
                             <Sparkles className="" />
@@ -29,7 +29,7 @@ const Features = () => {
 
 
                     {/* 2 */}
-                    <div dir='rtl' className="w-80 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
+                    <div dir='rtl' className="w-64 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
                         <div dir='rtl' className='flex w-full px-2 justify-between items-center text-[#495261]'>
                             <p className='font-semibold'>ערכו כתבי טענות משכנעים</p>
                             <BookOpen />
@@ -41,7 +41,7 @@ const Features = () => {
                     </div>
 
                     {/* 3 */}
-                    <div dir='rtl' className="w-80 h-96 bg-[#F3F4F6] text-[#374151  ] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
+                    <div dir='rtl' className="w-64 h-96 bg-[#F3F4F6] text-[#374151  ] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
                         <div dir='rtl' className='flex w-full px-2 justify-between items-center text-[#495261]'>
                             <p className='font-semibold '>סיעור מוחות עם ישות בעלת יכולות על אנושיות</p>
                             <Search />
@@ -53,7 +53,7 @@ const Features = () => {
                     </div>
 
                     {/* 4 */}
-                    <div dir='rtl' className="w-80 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
+                    <div dir='rtl' className="w-64 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
                         <div dir='rtl' className='flex w-full px-2 justify-between items-center text-[#495261]'>
                             <p className='font-semibold'>תמצתו מסמכים ארוכים וסבוכים</p>
                             <BookOpen />
@@ -65,7 +65,7 @@ const Features = () => {
                     </div>
 
                     {/* 5 */}
-                    <div dir='rtl' className="w-80 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
+                    <div dir='rtl' className="w-64 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
                         <div dir='rtl' className='flex w-full px-2 justify-between items-center text-[#495261]'>
                             <p className='font-semibold'>השוו בין מסמכים משפטיים</p>
                             <BookOpen />
