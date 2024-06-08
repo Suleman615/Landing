@@ -6,16 +6,17 @@ import { Search, Sparkles, BookOpen } from 'lucide-react';
 const Features = () => {
     return (
         <>
-            <div className="flex flex-col gap-3 bg-[#F7F8F9] py-20 border-b px-2 md:px-28">
+        <div className='bg-[#F7F8F9] w-full'>
+            <div className="flex flex-col gap-3 md:gap-20 bg-[#F7F8F9] py-20 border-b px-2 md:px-28  mx-auto">
                 <h2 className="text-center text-[60px]  text-[#484F5E]">מאפיינים</h2>
                 <p className="text-center text-[16px] text-[#828894] ">אלו הן רק כמה תכונות שתקבלו באמצעות הכל עורך דין AI</p>
-                <div className="flex flex-wrap gap-10 justify-start items-center my-10 px-8">
+                <div className="flex flex-wrap gap-10 justify-center items-center my-10 px-8">
 
 
 
 
                     {/* 1 */}
-                    <div dir='rtl' className="w-80 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
+                    <div dir='rtl' className="w-72 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
                         <div dir='rtl' className='flex w-full px-2 justify-between items-center text-[#495261]'>
                             <p className='font-semibold'>הסבירו החלטות, פסקי דין ומאמרים</p>
                             <Sparkles className="" />
@@ -76,6 +77,7 @@ const Features = () => {
                     </div>
 
                 </div>
+            </div>
             </div>
         </>
     )

@@ -10,14 +10,14 @@ import Security from "@/components/Security";
 export default function Home() {
   return (
     <>
-    <div className="max-w-[1280px]">
+    <div className="b">
     <Navbar />
         <Hero />
         <Features />
         <About/>
-        <Governance/>
-        <Security/>
-        <JoinUs/>
+        {/* <Governance/> */}
+        {/* <Security/> */}
+        {/* <JoinUs/> */}
         <Footer/>
     </div>
         

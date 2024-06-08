@@ -3,7 +3,8 @@
 const Hero = () => {
     return (
         <>
-            <div dir="rtl" className="flex flex-col gap-4 justify-center items-center pb-10 pt-28  px-2  bg-[#F3F4F6] h-screen">
+        <div className="bg-[#F3F4F6]">
+            <div dir="rtl" className="flex flex-col  gap-4 md:gap-28 justify-center items-center pb-32 pt-28  px-2  bg-[#F3F4F6]  max-w-[1280px] mx-auto">
                 <h5  className="text-[48px] text-center text-[#2A313F]">מערכת AI לשכנוע בעולם המשפט</h5>
                 <p className='text-center text-[#757C89] max-w-[50%] m'>גלה חולשות וחוזקות בכתבי טענות והסכמים, נתח וסכם רעיונות כהרף עין וכתוב מחדש בעברית מעולה טיעונים משפטיים מנצחים לבתי המשפט.</p>
                 <div dir='rtl' className="flex my-10  gap-4  font-semibold">
@@ -13,6 +14,7 @@ const Hero = () => {
                 </div>
                 <p className='text-center text-[#757C89]'>חמורבי עובד עם ארגוני המשפט והמשרדים הטובים בישראל</p>
 
+            </div>
             </div>
         </>
     )
