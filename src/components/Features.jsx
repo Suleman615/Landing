@@ -15,7 +15,7 @@ const Features = () => {
 
 
                     {/* 1 */}
-                    <div className="w-80 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
+                    <div dir='rtl' className="w-80 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
                         <div dir='rtl' className='flex w-full px-2 justify-between items-center text-[#495261]'>
                             <p className='font-semibold'>הסבירו החלטות, פסקי דין ומאמרים</p>
                             <Sparkles className="" />
@@ -28,7 +28,7 @@ const Features = () => {
 
 
                     {/* 2 */}
-                    <div className="w-80 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
+                    <div dir='rtl' className="w-80 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
                         <div dir='rtl' className='flex w-full px-2 justify-between items-center text-[#495261]'>
                             <p className='font-semibold'>ערכו כתבי טענות משכנעים</p>
                             <BookOpen />
@@ -40,7 +40,7 @@ const Features = () => {
                     </div>
 
                     {/* 3 */}
-                    <div className="w-80 h-96 bg-[#F3F4F6] text-[#374151  ] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
+                    <div dir='rtl' className="w-80 h-96 bg-[#F3F4F6] text-[#374151  ] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
                         <div dir='rtl' className='flex w-full px-2 justify-between items-center text-[#495261]'>
                             <p className='font-semibold '>סיעור מוחות עם ישות בעלת יכולות על אנושיות</p>
                             <Search />
@@ -52,7 +52,7 @@ const Features = () => {
                     </div>
 
                     {/* 4 */}
-                    <div className="w-80 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
+                    <div dir='rtl' className="w-80 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
                         <div dir='rtl' className='flex w-full px-2 justify-between items-center text-[#495261]'>
                             <p className='font-semibold'>תמצתו מסמכים ארוכים וסבוכים</p>
                             <BookOpen />
@@ -64,7 +64,7 @@ const Features = () => {
                     </div>
 
                     {/* 5 */}
-                    <div className="w-80 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
+                    <div dir='rtl' className="w-80 h-96 bg-[#F3F4F6] text-[#374151] rounded-lg border flex flex-col px-2 items-center gap-1 py-2">
                         <div dir='rtl' className='flex w-full px-2 justify-between items-center text-[#495261]'>
                             <p className='font-semibold'>השוו בין מסמכים משפטיים</p>
                             <BookOpen />

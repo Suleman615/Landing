@@ -11,9 +11,9 @@ const Footer = () => {
                 <div className="flex flex-wrap justify-around items-center gap-3 md:gap-0 py-10 mx-auto md:mx-28   bg-[#F9FAFB]">
 
                     <div className='w-full md:w-[45%] text-center sm:text-start  sm:px-10 md:px-2   '>
-                        <h5 className="text-[48px]   text-[#2A313F]">@חמורבי.</h5>
+                        <h5 className="text-[48px]   text-[#2A313F]">חמורבי.</h5>
                     </div>
-                    <div className='p-4 w-full md:w-[50%]  '>
+                    <div dir='rtl' className='p-4 w-full md:w-[50%]  '>
                         <h3 className="text-md font-semibold   text-[#2A313F]">מערכת AI לשכנוע בעולם המשפט</h3>
                         <p className='text-center md:text-start max-w-[80%] text-[#757C89]'>גלה חולשות וחוזקות בכתבי טענות והסכמים, נתח וסכם רעיונות כהרף עין וכתוב מחדש בעברית מעולה טיעונים משפטיים מנצחים לבתי המשפט</p>
 
