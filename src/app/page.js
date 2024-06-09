@@ -8,10 +8,17 @@ import Navbar from "@/components/Navbar";
 import Pricing from "@/components/Pricing";
 import Security from "@/components/Security";
 
+import { Heebo } from "next/font/google"; 
+
+const heebo = Heebo({
+  subsets:["hebrew"],
+  weight:'600'
+})
+
 export default function Home() {
   return (
-    <>
-    <div className="b">
+    
+    <main className={heebo.className}>
     <Navbar />
         <Hero />
         <Features />
@@ -21,9 +28,9 @@ export default function Home() {
         {/* <Security/> */}
         {/* <JoinUs/> */}
         <Footer/>
-    </div>
+    </main>
         
        
-    </>
+  
   );
 }

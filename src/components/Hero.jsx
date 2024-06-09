@@ -17,13 +17,7 @@ const Hero = () => {
 
 
                 </div>
-                <div className='w-full bg-[#F9FBFC]'>
-                    <div className='max-w-[1080px] mx-auto'>
-                    <Image src={img1} alt='' className='w-full mt-20'/>
-
-                    </div>
-
-                </div>
+                
             </div>
         </>
     )

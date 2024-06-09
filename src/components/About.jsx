@@ -15,7 +15,7 @@ const About = () => {
                 </div>
                 <div className=' w-full mt-20 h-[60vh]  md:h-[500px] 2xl:h-[50vh] my-20  xl:mb-2   '>
                     <div className='border p-1 rounded-lg w-[80%] md:w-3/4  2xl:w-[100%] h-full  mx-auto'>
-                        <iframe className='w-full h-full  rounded-lg ' src="https://www.youtube.com/embed/RwU7YY6emYc" title="Placeholder video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe className='w-full h-full  rounded-lg ' src="https://www.youtube.com/embed/RwU7YY6emYc" title="How To Use" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     </div>
 
                 </div>

@@ -12,8 +12,8 @@ const PriceCard = ({ planPrice, yearPlan }) => {
             </div>
             <p>מחויב {(yearPlan) ? 'שְׁנָתִי' : 'יַרחוֹן'}</p>
             <div className='flex flex-col gap-3 my-6'>
-                {planPrice.features.map((item) => 
-                    <section dir='rtl' className='flex flex-row gap-2'><section className='h-10 w-10'><Check color='green ' /></section>  <p>{item} </p> </section>
+                {planPrice.features.map((item , index) => 
+                    <section key={index} dir='rtl' className='flex flex-row gap-2'><section className='h-10 w-10'><Check color='green ' /></section>  <p>{item} </p> </section>
                 )}
                  </div>
 
