@@ -7,7 +7,7 @@ const JoinUs = () => {
 
                 <div className="flex flex-col gap-4 justify-center items-center   md:mx-28     ">
                     <h5 className="text-[48px] text-center text-[#585F6E]">שינוי משפטי<br /> <span className='text-[#2A313F]'> מתאמן עם AI</span></h5>
-                    <p className='text-center text-[#757C89]'>גלה ניהול, ניתוח וסיוע של מסמכים משפטיים חלקים.</p>
+                    <p className='text-center px-2 text-[#757C89]'>גלה ניהול, ניתוח וסיוע של מסמכים משפטיים חלקים.</p>
                     
                     <div dir='rtl' className="flex  gap-4  font-semibold">
 
@@ -16,7 +16,6 @@ const JoinUs = () => {
                     </div>
 
                 </div>
-                <div className="tapered-border mt-36"></div>
 
             </div>
 

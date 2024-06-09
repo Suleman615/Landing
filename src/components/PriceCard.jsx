@@ -11,8 +11,8 @@ const PriceCard = ({ planPrice, yearPlan }) => {
                 <p className="font-semibold">{(yearPlan) ? ' שָׁנָה' : ' חוֹדֶשׁ'}\</p>
             </div>
             <p>מחויב {(yearPlan) ? 'שְׁנָתִי' : 'יַרחוֹן'}</p>
-            <div  className='flex flex-col gap-3 my-6'>
-                <section  className='flex flex-row-reverse gap-2'>{(planPrice.feature_1) ? <Check color='green' /> : <X color='gray' />} <p>תכונה </p> </section>
+            <div className='flex flex-col gap-3 my-6'>
+                <section className='flex flex-row-reverse gap-2'>{(planPrice.feature_1) ? <Check color='green' /> : <X color='gray' />} <p>תכונה </p> </section>
                 <section className='flex flex-row-reverse gap-2'>{(planPrice.feature_2) ? <Check color='green' /> : <X color='gray' />} <p>תכונה </p></section>
                 <section className='flex flex-row-reverse gap-2'>{(planPrice.feature_3) ? <Check color='green' /> : <X color='gray' />} <p>תכונה </p></section>
                 <section className='flex flex-row-reverse gap-2'>{(planPrice.feature_4) ? <Check color='green' /> : <X color='gray' />} <p>תכונה </p></section>
@@ -20,7 +20,8 @@ const PriceCard = ({ planPrice, yearPlan }) => {
             </div>
 
             <button type="button" className='flex gap-3 font-semibold bg-[#F3F4F6] shadow-lg p-3 rounded-lg text-[#2E3747] border-2 border-[#F3F4F6] hover:border-white  '><ArrowLeft />התחל ניסיון חינם</button>
-<p className='text-[12px] my-4'>אין צורך בכרטיס אשראי</p>
+            <p className='text-[12px] my-4'>אין צורך בכרטיס אשראי</p>
+            
         </div>
     )
 }

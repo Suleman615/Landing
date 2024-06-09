@@ -11,10 +11,10 @@ const About = () => {
 
                 <div dir='rtl' className='w-full  text-center sm:text-start  sm:px-10 md:px-2   '>
                     <h5 className="text-[48px] text-center  text-[#585F6E]">איך להשתמש בחמורבי.</h5>
-                    <p className=' text-[#757C89] text-center'>סרטון לימודי המבהיר כיצד להשתמש בחמורבי על מנת לשפר את ביצועיך כמשפטן ועורך דין.</p>
+                    <p className=' text-[#757C89] px-2 text-center'>סרטון לימודי המבהיר כיצד להשתמש בחמורבי על מנת לשפר את ביצועיך כמשפטן ועורך דין.</p>
                 </div>
-                <div className=' w-full mt-20 h-[60vh]  md:h-[80vh] 2xl:h-[50vh] my-20  xl:mb-2   '>
-                    <div className='border p-1 rounded-lg w-[80%] md:w-3/4  2xl:w-[100%] h-[90%] 2xl:h-[50%]  mx-auto'>
+                <div className=' w-full mt-20 h-[60vh]  md:h-[500px] 2xl:h-[50vh] my-20  xl:mb-2   '>
+                    <div className='border p-1 rounded-lg w-[80%] md:w-3/4  2xl:w-[100%] h-full  mx-auto'>
                         <iframe className='w-full h-full  rounded-lg ' src="https://www.youtube.com/embed/RwU7YY6emYc" title="Placeholder video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
 

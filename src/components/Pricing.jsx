@@ -37,9 +37,9 @@ const Pricing = () => {
     ]
 
     return (
-        <div className="flex flex-col gap-3 bg-[#F8F9FF] py-20">
+        <div className="flex flex-col gap-3 bg-[#F8F9FF] pt-20">
             <h2 className="text-center text-[60px] font-bold">תמחור ותוכניות</h2>
-            <p className="text-center text-[16px] ">בחר את התוכנית המתאימה ביותר לצרכים המשפטיים שלך.</p>
+            <p className="text-center px-2 text-[16px] ">בחר את התוכנית המתאימה ביותר לצרכים המשפטיים שלך.</p>
 
             <div className="flex flex-row-reverse justify-center items-center gap-3  py-10 text-[19px]">
                 <p>יַרחוֹן</p>
@@ -54,6 +54,8 @@ const Pricing = () => {
             <div className="flex flex-wrap flex-row-reverse justify-center pb-10 gap-10">
                 {plans.map((plan, index) => <PriceCard key={index} planPrice={plan} yearPlan={yearly} />)}
             </div>
+            <div className="tapered-border mt-36"></div>
+
         </div>
     )
 }
