@@ -2,7 +2,7 @@ import { ArrowLeft, Check, X } from 'lucide-react';
 
 const PriceCard = ({ planPrice, yearPlan }) => {
     return (
-        <div className="bg-white rounded-lg py-4 w-80 px-10 flex flex-col justify-between items-end transition-transform duration-300 hover:scale-110 cursor-pointer">
+        <div className="bg-white rounded-lg py-4 w-80 px-10 flex flex-col justify-between items-end transition-transform duration-300 hover:scale-105 cursor-pointer">
             <p className="text-[13px] my-4 font-semibold text-[#2E3747]">{planPrice.name}</p>
 
             <div className=" flex flex-row-reverse items-baseline w-full my-4 ">
