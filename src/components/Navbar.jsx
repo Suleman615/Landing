@@ -14,12 +14,12 @@ const Navbar = () => {
 
 
                 {/* wied screen */}
-                <div dir="rtl" className=" h-full hidden sm:flex  pl-8 ml-6 font-semibold items-center">
-                    <a className="cursor-pointer h-full flex justify-center items-center px-2 gradient-background  " >יישומים</a>
-                    <a className="cursor-pointer h-full flex justify-center items-center px-2 gradient-background" >שאלות ותשובות</a>
-                    <a className="cursor-pointer  h-full flex justify-center items-center px-2 gradient-background" >תוכניות</a>
-                    <a className="cursor-pointer  h-full flex justify-center items-center px-2 gradient-background" >בלוג</a>
-                    <a className="cursor-pointer  h-full flex justify-center items-center px-2 gradient-background" >תמיכה</a>
+                <div dir="rtl" className=" h-full hidden sm:flex gap-2 pl-8 ml-6 font-semibold items-center">
+                    <span className="h-full show-border"><a className=" cursor-pointer h-full flex justify-center items-center px-2   " >יישומים</a> <div className="tapered-border hidden second-border"></div></span>
+                    <span className="h-full show-border"><a className="cursor-pointer h-full flex justify-center items-center px-2 " >שאלות ותשובות</a><div className="tapered-border hidden second-border"></div></span>
+                    <span className="h-full show-border"><a className="cursor-pointer  h-full flex justify-center items-center px-2 " >תוכניות</a><div className="tapered-border hidden second-border"></div></span>
+                    <span className="h-full show-border"><a className="cursor-pointer  h-full flex justify-center items-center px-2 " >בלוג</a><div className="tapered-border hidden second-border"></div></span>
+                    <span className="h-full show-border"><a className="cursor-pointer  h-full flex justify-center items-center px-2 " >תמיכה</a><div className="tapered-border hidden second-border"></div></span>
 
                 </div>
 
@@ -42,15 +42,15 @@ const Navbar = () => {
 
                         </div>
                         <div className="flex flex-col gap-4 font-semibold">
-                        <button type="button" className=" bg-[#2E3747] text-white rounded-lg px-4 py-0.5 hover:bg-[#1d2129]">התחבר</button>
-                    <button type="button" className="bg-white text-[#2E3747] rounded-lg px-4 py-0.5  border-2 shadow-md border-[#eeeff1] hover:border-[#b2b5b8] hover:shadow-lg">נסה ללא תשלום</button>
+                            <button type="button" className=" bg-[#2E3747] text-white rounded-lg px-4 py-0.5 hover:bg-[#1d2129]">התחבר</button>
+                            <button type="button" className="bg-white text-[#2E3747] rounded-lg px-4 py-0.5  border-2 shadow-md border-[#eeeff1] hover:border-[#b2b5b8] hover:shadow-lg">נסה ללא תשלום</button>
 
                         </div>
                     </div>
                 }
 
             </div>
-            </div>
+        </div>
         </>
     )
 }
