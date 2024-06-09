@@ -8,30 +8,39 @@ const Pricing = () => {
     let plans = [
         {
             name: 'מַתנֵעַ',
+            desc: '',
             price_per_month: 19,
-            feature_1: true,
-            feature_2: true,
-            feature_3: true,
-            feature_4: false,
-            feature_5: false,
+            features: [
+                'העלה 3 קבצים',
+                "גישה לבוט AI של Lawyer עם מאגר הידע המשפטי של המנהל",
+                "10 אסימונים ראשוניים לשאילתות בסיסיות ופונקציונליות צ'אט",
+            ]
+
+
         },
         {
             name: 'תֶקֶן',
+            desc: '',
             price_per_month: 49,
-            feature_1: true,
-            feature_2: true,
-            feature_3: true,
-            feature_4: true,
-            feature_5: false,
+            features: [
+                "כל התכונות הבסיסיות",
+                "20 אסימונים ראשוניים נוספים עבור כל הפונקציות",
+                "יכולת העלאת קבצים ליצירת בסיס ידע משפטי מותאם אישית",
+                "גישה לפונקציונליות בסיסית של מסמכים",
+            ],
+
         },
         {
             name: 'פּרֶמיָה',
+            desc: '',
             price_per_month: 99,
-            feature_1: true,
-            feature_2: true,
-            feature_3: true,
-            feature_4: true,
-            feature_5: true,
+            features: [
+                "כל תכונות ה-Pro",
+                "80 אסימונים ראשוניים נוספים עבור כל הפונקציות",
+                "פונקציונליות השוואת מסמכים",
+                "גישה לתכונת Rewrite עבור התאמת מסמכים ספציפיים לשופט",
+            ]
+
         }
 
     ]
