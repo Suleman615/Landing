@@ -6,9 +6,10 @@ import { Linkedin } from 'lucide-react';
 const Footer = () => {
     return (
         <>
-            <div dir='rtl' className='w-full bg-[rgb(249,250,251)]'>
+        <div className='w-full bg-[#f9fafb]'>
+            <div dir='rtl' className='max-w-[1280px] bg-[#f9fafb] mx-auto'>
 
-                <div className="flex flex-wrap justify-around items-center gap-3 md:gap-0 py-10 mx-auto md:mx-28   bg-[#F9FAFB]">
+                <div className="flex flex-wrap justify-around items-center gap-3 md:gap-0 py-10 mx-auto    bg-[#F9FAFB]">
 
                     <div className='w-full md:w-[45%] text-center sm:text-start  sm:px-10 md:px-2   '>
                         <h5 className="text-[48px]   text-[#2A313F]">חמורבי.</h5>
@@ -54,6 +55,7 @@ const Footer = () => {
 
                     </div>
                 </div>
+            </div>
             </div>
 
         </>
