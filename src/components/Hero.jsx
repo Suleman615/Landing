@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <>
             <div className="bg-[#F3F4F6] w-full">
-                <div dir="rtl" className="flex flex-col  gap-4 md:gap-10 justify-center items-center  pt-28  px-2  bg-[#F3F4F6]  max-w-[1280px] mx-auto">
+                <div dir="rtl" className="flex flex-col  gap-4 md:gap-10 justify-center items-center  py-28  px-2  bg-[#F3F4F6]  max-w-[1280px] mx-auto">
                     <h5 className="text-[48px] text-center text-[#2A313F]">מערכת AI לשכנוע בעולם המשפט</h5>
                     <p className='text-center px-2 text-[#757C89] max-w-[50%] m'>גלה חולשות וחוזקות בכתבי טענות והסכמים, נתח וסכם רעיונות כהרף עין וכתוב מחדש בעברית מעולה טיעונים משפטיים מנצחים לבתי המשפט.</p>
                     <div dir='rtl' className="flex   gap-4  font-semibold">
