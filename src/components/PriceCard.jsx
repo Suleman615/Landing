@@ -5,12 +5,12 @@ const PriceCard = ({ planPrice, yearPlan }) => {
         <div className="bg-white rounded-lg py-4 w-80 px-10 flex flex-col justify-between items-end transition-transform duration-300 hover:scale-105 cursor-pointer">
             <p className="text-[13px] my-4 font-semibold text-[#2E3747]">{planPrice.name}</p>
 
-            <div className=" flex flex-row-reverse items-baseline w-full my-4 ">
+            {/* <div className=" flex flex-row-reverse items-baseline w-full my-4 ">
                 <p className="font-bold">$</p>
                 <h5 className="text-5xl font-bold">{(yearPlan) ? (planPrice.price_per_month * 12) * 0.75 : planPrice.price_per_month}</h5>
                 <p className="font-semibold">{(yearPlan) ? ' שָׁנָה' : ' חוֹדֶשׁ'}\</p>
             </div>
-            <p>מחויב {(yearPlan) ? 'שְׁנָתִי' : 'יַרחוֹן'}</p>
+            <p>מחויב {(yearPlan) ? 'שְׁנָתִי' : 'יַרחוֹן'}</p> */}
             <div className='flex flex-col gap-3 my-6'>
                 {planPrice.features.map((item , index) => 
                     <section key={index} dir='rtl' className='flex flex-row gap-2'><section className='h-10 w-10'><Check color='green ' /></section>  <p>{item} </p> </section>
