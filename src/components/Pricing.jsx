@@ -63,7 +63,7 @@ const Pricing = () => {
             <div className="flex flex-wrap flex-row-reverse justify-center pb-10 gap-10">
                 {plans.map((plan, index) => <PriceCard key={index} planPrice={plan} yearPlan={yearly} />)}
             </div>
-            <div className="tapered-border mt-36"></div>
+            <div className="tapered-border mt-36 max-w-[1080px] mx-auto"></div>
 
         </div>
     )
