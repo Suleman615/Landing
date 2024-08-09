@@ -3,7 +3,7 @@
 const JoinUs = () => {
     return (
         <>
-            <div className='w-full bg-[#f9fafb] py-10 '>
+            <div className='relative w-full bg-transparent py-10   border-b-2 ' >
 
                 <div className="flex flex-col gap-4 justify-center items-center   md:mx-28     ">
                     <h5 className="text-[48px] text-center text-[#585F6E]">שינוי משפטי<br /> <span className='text-[#2A313F]'> מתאמן עם AI</span></h5>
@@ -17,6 +17,8 @@ const JoinUs = () => {
 
                 </div>
 
+
+<div className="absolute w-full h-[40rem] -bottom-96 -z-10  bottum-gradient"></div>
             </div>
 
         </>

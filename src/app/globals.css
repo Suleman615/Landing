@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 
-
-
+.bottum-gradient{
+    background: radial-gradient(circle at bottom center,  #F26702 0%,  #f17821 10%, rgba(255, 255, 255, 0) 70%  
+);}
 
 
 .tapered-border {
