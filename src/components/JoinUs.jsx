@@ -18,7 +18,7 @@ const JoinUs = () => {
                 </div>
 
 
-<div className="absolute w-full h-[40rem] -bottom-96 -z-10  bottum-gradient"></div>
+<div className="absolute w-full h-[40rem] -bottom-[32rem] -z-10  bottum-gradient"></div>
             </div>
 
         </>
