@@ -7,7 +7,7 @@ const Navbar = () => {
     const [mobile, setMobile] = useState(false)
 
     return (
-        <><div className="bg-[#F3F4F6] w-full fixed z-20">
+        <><div className="bg-[#F3F4F6] w-screen fixed z-20">
             <div dir="rtl" className="flex justify-between  items-center h-16  px-2 md:px-10 border-b bg-[#F3F4F6]  max-w-[1280px] mx-auto ">
                 <h2 className="text-[24px] font-bold">חמורבי.</h2>
                 <Menu onClick={() => setMobile(!mobile)} className="visible md:hidden" />

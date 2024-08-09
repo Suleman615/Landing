@@ -16,7 +16,7 @@ const SlickSlider = dynamic(() => import('react-slick'), { ssr: false });
 
 function LogoSlider() {
   var settings = {
-    className:'center bg-[#F3F4F6]',
+    className:'center bg-[#F3F4F6] w-[100%] overflow-hidden',
     centerMode: true,
     infinite: true,
     infinite: true,
