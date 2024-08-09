@@ -46,7 +46,7 @@ const Pricing = () => {
     ]
 
     return (
-        <div className="flex flex-col gap-3  pt-20">
+        <div className="flex flex-col gap-3  pt-10 md:pt-20">
             <h2 className="text-center text-[40px] md:text-[60px] font-bold mt-20 md:mt-0">תמחור ותוכניות</h2>
             <p className="text-center px-2 text-[16px] ">בחר את התוכנית המתאימה ביותר לצרכים המשפטיים שלך.</p>
 
