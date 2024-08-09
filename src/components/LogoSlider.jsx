@@ -55,35 +55,35 @@ function LogoSlider() {
     <div className="slider-container">
       <SlickSlider {...settings}>
         <div>
-        <Image className='my-2 mx-auto bg-[#F3F4F6]' src={image_1} alt="img"  />
+        <Image loading='lazy' className='my-2 mx-auto bg-[#F3F4F6]' src={image_1} alt="img"  />
          
         </div>
         <div>
-        <Image className='my-2 mx-auto bg-[#F3F4F6]' src={image_2} alt="img"  />
+        <Image loading='lazy' className='my-2 mx-auto bg-[#F3F4F6]' src={image_2} alt="img"  />
          
         </div>
         <div>
-        <Image className='my-2 mx-auto bg-[#F3F4F6]' src={image_3} alt="img"  />
+        <Image loading='lazy' className='my-2 mx-auto bg-[#F3F4F6]' src={image_3} alt="img"  />
          
         </div>
         <div>
-        <Image className='my-2 mx-auto bg-[#F3F4F6]' src={image_1} alt="img"  />
+        <Image loading='lazy' className='my-2 mx-auto bg-[#F3F4F6]' src={image_1} alt="img"  />
          
         </div>
         <div>
-        <Image className='my-2 mx-auto bg-[#F3F4F6]' src={image_2} alt="img"  />
+        <Image loading='lazy' className='my-2 mx-auto bg-[#F3F4F6]' src={image_2} alt="img"  />
          
         </div>
         <div>
-        <Image className='my-2 mx-auto bg-[#F3F4F6]' src={image_3} alt="img"  />
+        <Image loading='lazy' className='my-2 mx-auto bg-[#F3F4F6]' src={image_3} alt="img"  />
          
         </div>
         <div>
-        <Image className='my-2 mx-auto bg-[#F3F4F6]' src={image_1} alt="img"  />
+        <Image loading='lazy' className='my-2 mx-auto bg-[#F3F4F6]' src={image_1} alt="img"  />
          
         </div>
         <div>
-        <Image className='my-2 mx-auto bg-[#F3F4F6]' src={image_2} alt="img"  />
+        <Image loading='lazy' className='my-2 mx-auto bg-[#F3F4F6]' src={image_2} alt="img"  />
          
         </div>
       </SlickSlider>

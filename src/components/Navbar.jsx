@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <><div dir="rtl" className="bg-white w-screen fixed z-20">
             <div dir="rtl" className="flex justify-between  items-center h-16  px-2 md:px-10 border-b bg-white max-w-[1280px] mx-auto ">
-                <Image src={logo} alt="LOGO" />
+                <Image loading='lazy' src={logo} alt="LOGO" />
 
 
                 {/* wied screen */}

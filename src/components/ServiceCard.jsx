@@ -11,7 +11,7 @@ const ServiceCard = ({ index, image, title, desc }) => {
 
 
 <div className=' flex-shrink-0 flex-grow w-auto lg:w-[50%]  '>
-                    <Image src={image} alt='' className='rounded-lg w-full ' />
+                    <Image loading='lazy' src={image} alt='' className='rounded-lg w-full ' />
             </div>
             <div dir='rtl' className='text-start flex-shrink-0 w-auto lg:w-[50%] flex-grow  lg:max-w-[500px]  '>
                 <h5 className="text-[40px]  text-wrap   text-[#585F6E]">{title}</h5>

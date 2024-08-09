@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className="flex flex-col-reverse md:flex-row relative flex-wrap justify-around items-start   gap-3 md:gap-0 py-10 mx-auto  ">
 
                         <div className='w-full md:w-[45%]  sm:text-start  sm:px-10 md:px-2   '>
-                        <Image className='hidden my-6 ms-4 md:block' src={logo} alt="LOGO" />
+                        <Image loading='lazy' className='hidden my-6 ms-4 md:block' src={logo} alt="LOGO" />
 
                             <ul className="text-[#757C89] flex flex-col gap-4 px-4 text-[24px] ">
                                 <li className="font-semibold block md:hidden text-[#2A313F]">חמורבי.</li>
