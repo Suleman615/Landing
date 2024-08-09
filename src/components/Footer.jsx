@@ -18,13 +18,12 @@ const Footer = () => {
 
                             <ul className="text-[#757C89] flex flex-col gap-4 px-4 text-[24px] ">
                                 <li className="font-semibold block md:hidden text-[#2A313F]">חמורבי.</li>
-                                <li>יישומים</li>
                                 <li>שאלות ותשובות</li>
                                 <li>תוכניות</li>
-                                <li>בלוג </li>
+                                <li>בלוג</li>
                                 <li>מי אנחנו</li>
                                 <li>תמיכה</li>
-                                <li>תקנון </li>
+                                <li>תקנון</li>
 
                             </ul>
                         </div>
