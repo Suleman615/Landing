@@ -24,9 +24,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <LogoSlider/>
-      {/* <Governance/> */}
       <Services/>
-      <Features />
+      {/* <Features /> */}
       <About />
       <Pricing />
       <JoinUs/>

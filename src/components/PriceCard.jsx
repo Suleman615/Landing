@@ -3,7 +3,7 @@ import card_icon from '../../public/assets/3-layers.svg'
 
 const PriceCard = ({ planPrice, yearPlan }) => {
     return (
-        <div className="bg-white rounded-lg py-4 w-80 px-10 flex flex-col justify-between items-end transition-transform duration-300 hover:scale-105 cursor-pointer">
+        <div className="bg-white border-[1.5px]  m-2 rounded-lg py-4 w-80 px-10 flex flex-col justify-between items-end transition-transform duration-300 hover:scale-105 cursor-pointer">
 <span className='mx-auto bg-[#F5F2F1] rounded-full p-2'><Layers className=' bg-[#E5E0DC] px-2 rounded-full' color='#312F33' size={40} /></span>
             <p className="text-[24px] my-4 font-semibold text-[#816E63] text-center w-full">{planPrice.name}</p>
 
