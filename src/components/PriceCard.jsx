@@ -17,7 +17,7 @@ const PriceCard = ({ planPrice, yearPlan }) => {
             <h1 dir='rtl' className='text-[24px]  text-center w-full'><span>{planPrice.price_per_month}</span> דולר לחודש</h1>
             <div className='flex flex-col gap-3 w-full my-6'>
                 {planPrice.features.map((item , index) => 
-                    <div key={index} dir='rtl' className='flex flex-row gap-2 items-center w-full'><div className='bg-[#F2F4F7]  flex-shrink-0 w-[30px] h-[30px] flex justify-center items-center rounded-full'><Image className='h-[20px] w-[20px] '   src={tick}/></div><p className='text-[#645F6A] h-fit'>{item}</p></div>
+                    <div key={index} dir='rtl' className='flex flex-row gap-2 items-center w-full'><div className='bg-[#F2F4F7]  flex-shrink-0 w-[30px] h-[30px] flex justify-center items-center rounded-full'><Image className='h-[20px] w-[20px] '   src={tick} alt='Tick'/></div><p className='text-[#645F6A] h-fit'>{item}</p></div>
                 )}
                  </div>
 
