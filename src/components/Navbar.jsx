@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Menu } from 'lucide-react';
 import Image from "next/image";
+
 import logo from '../../public/assets/brand-logo.svg'
 
 
