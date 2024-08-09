@@ -10,7 +10,7 @@
 .tapered-border {
     width: 100%;
     height: 1px;
-    background: linear-gradient(to right, transparent, rgb(46, 55, 71), transparent);
+    background: linear-gradient(to right, transparent, #F26702, transparent);
     transform: scaleY(0.5);
     transform-origin: center;
     transition: transform 0.5s ease;

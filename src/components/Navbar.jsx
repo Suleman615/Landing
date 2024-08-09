@@ -24,8 +24,8 @@ const Navbar = () => {
                 </div>
 
                 <div dir="rtl" className="hidden md:flex   gap-4 font-semibold">
-                    <button type="button" className=" bg-[#2E3747] text-white rounded-lg px-4 py-0.5 hover:bg-[#1d2129]">התחבר</button>
-                    <button type="button" className="bg-white text-[#2E3747] rounded-lg px-4 py-0.5  border-2 shadow-md border-[#eeeff1] hover:border-[#b2b5b8] hover:shadow-lg">נסה ללא תשלום</button>
+                    <button type="button" className=" bg-primary text-white rounded-lg border border-transparent px-4 py-0.5 hover:text-primary hover:bg-transparent hover:border-primary">התחבר</button>
+                    <button type="button" className="bg-white text-primary rounded-lg px-4 py-0.5  border shadow-md border-primary hover:bg-primary  hover:shadow-lg hover:text-white">נסה ללא תשלום</button>
 
                 </div>
 
@@ -42,8 +42,8 @@ const Navbar = () => {
 
                         </div>
                         <div className="flex flex-col gap-4 font-semibold">
-                            <button type="button" className=" bg-[#2E3747] text-white rounded-lg px-4 py-0.5 hover:bg-[#1d2129]">התחבר</button>
-                            <button type="button" className="bg-white text-[#2E3747] rounded-lg px-4 py-0.5  border-2 shadow-md border-[#eeeff1] hover:border-[#b2b5b8] hover:shadow-lg">נסה ללא תשלום</button>
+                            <button type="button" className=" bg-primary text-white rounded-lg px-4 py-0.5 ">התחבר</button>
+                            <button type="button" className="bg-white text-primary rounded-lg px-4 py-0.5  border shadow-md border-primary ">נסה ללא תשלום</button>
 
                         </div>
                     </div>

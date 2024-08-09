@@ -11,8 +11,8 @@ const JoinUs = () => {
                     
                     <div dir='rtl' className="flex  gap-4  font-semibold">
 
-                        <button type="button" className=" bg-[#2E3747] text-white rounded-lg px-4 py-0.5 hover:bg-[#1d2129]">להתחבר</button>
-                        <button type="button" className="bg-white text-[#2E3747] rounded-lg px-4 py-0.5 border-2 shadow-md border-[#eeeff1] hover:border-[#b2b5b8] hover:shadow-lg">להתחבר</button>
+                        <button type="button" className=" bg-primary text-white border  rounded-lg px-4 py-0.5 hover:bg-transparent hover:border-primary hover:text-primary">להתחבר</button>
+                        <button type="button" className="bg-white text-primary rounded-lg px-4 py-0.5 border shadow-md border-primary hover:bg-primary hover:text-white">להתחבר</button>
                     </div>
 
                 </div>

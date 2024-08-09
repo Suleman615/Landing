@@ -1,7 +1,6 @@
 
 import Image from 'next/image';
 import image from '../../public/assets/hero.png'
-import { Slash } from 'lucide-react';
 
 
 const Governance = () => {
